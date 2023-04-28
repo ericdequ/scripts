@@ -16,8 +16,6 @@ class PackageInstallerGUI:
             "pnpm": "npm install -g pnpm",
             "yarn": "npm install -g yarn",
             "Firebase CLI": "npm install -g firebase-tools",
-            "Git CLI": "",
-            "nvm": "",
             "Vercel CLI": "npm install -g vercel",
             "Next.js": "npm install -g next",
             "Go": self.install_go,

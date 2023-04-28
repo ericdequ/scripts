@@ -1,0 +1,63 @@
+[
+    {
+        "name": "CISA's Cybersecurity Assessment Framework",
+        "description": "A comprehensive set of tools and resources that can be used to assess an organization's cybersecurity posture. The CSF includes a self-assessment questionnaire, as well as guidance on how to implement the controls identified in the questionnaire.",
+        "url": "https://www.cisa.gov/cybersecurity-assessment"
+    },
+    {
+        "name": "NIST Special Publication 800-53",
+        "description": "A set of security controls that are recommended for federal government agencies. NIST SP 800-53 can be used as a starting point for developing an organization's own security controls.",
+        "url": "https://csrc.nist.gov/publications/detail/sp/800-53/rev-5/final"
+    },
+    {
+        "name": "SANS Institute's Critical Security Controls",
+        "description": "A set of 20 security controls that are considered to be essential for protecting information systems. The CSC can be used to assess an organization's cybersecurity posture and to develop a plan to implement the controls identified in the CSC.",
+        "url": "https://www.sans.org/critical-security-controls/"
+    },
+    {
+        "name": "The OpenSAMM Project",
+        "description": "A free and open-source framework that can be used to assess an organization's cybersecurity posture. The OpenSAMM Project includes a self-assessment questionnaire, as well as guidance on how to implement the controls identified in the questionnaire.",
+        "url": "https://www.opensamm.org/"
+    },
+    {
+        "name": "The Center for Internet Security (CIS) Critical Security Controls",
+        "description": "A prioritized set of actions that collectively form a defense-in-depth set of best practices to mitigate the most common attacks. Developed by a global community of cybersecurity experts, the CIS Controls are continuously updated to address emerging threats.",
+        "url": "https://www.cisecurity.org/controls/"
+    },
+    {
+        "name": "NIST Cybersecurity Framework",
+        "description": "A voluntary framework primarily intended for critical infrastructure organizations to manage and reduce cybersecurity risk. The framework provides a common taxonomy and mechanism for organizations to describe their current cybersecurity posture and their target state for cybersecurity.",
+        "url": "https://www.nist.gov/cyberframework"
+    },
+    {
+        "name": "ISO/IEC 27001:2013",
+        "description": "An information security standard that is part of the ISO/IEC 27000 family of standards. ISO/IEC 27001 specifies the requirements for establishing, implementing, maintaining, and continually improving an information security management system (ISMS) within the context of an organization.",
+        "url": "https://www.iso.org/isoiec-27001-information-security.html"
+    },{
+        "name": "PCI DSS",
+        "description": "The Payment Card Industry Data Security Standard (PCI DSS) is a set of security standards designed to ensure that all companies that accept, process, store, or transmit credit card information maintain a secure environment.",
+        "url": "https://www.pcisecuritystandards.org/pci_security/"
+    },
+    {
+        "name": "HITRUST CSF",
+        "description": "The Health Information Trust Alliance (HITRUST) Common Security Framework (CSF) is a comprehensive, certifiable security framework used by healthcare organizations to manage risk and compliance with HIPAA, HITECH, and other regulations.",
+        "url": "https://hitrustalliance.net/hitrust-csf/"
+    },
+    {
+        "name": "COBIT",
+        "description": "Control Objectives for Information and Related Technologies (COBIT) is a framework created by ISACA for IT management and governance. It provides a set of best practices for IT governance, risk management, and compliance.",
+        "url": "https://www.isaca.org/resources/cobit"
+    },
+    {
+        "name": "FAIR",
+        "description": "Factor Analysis of Information Risk (FAIR) is a quantitative risk analysis framework that helps organizations understand, analyze, and quantify information risk in financial terms.",
+        "url": "https://www.fairinstitute.org/"
+    },
+    {
+        "name": "NIST SP 800-171",
+        "description": "NIST Special Publication 800-171 provides recommended security requirements for protecting Controlled Unclassified Information (CUI) in non-federal systems and organizations.",
+        "url": "https://csrc.nist.gov/publications/detail/sp/800-171/rev-2/final",
+    }
+]
+
+
