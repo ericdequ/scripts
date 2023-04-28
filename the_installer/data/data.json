@@ -1,0 +1,644 @@
+{
+    "Python": {
+    "AllowedOS": ["Windows", "Linux", "Mac"],
+    "isnpm": "false",
+    "isdesktop": "false",
+    "tags": ["python", "python3", "python2", "py"],
+    "url": "https://www.python.org/ftp/python/3.9.6/python-3.9.6-amd64.exe",
+    "install_commands_windows": "choco install python",
+    "install_commands_linux": "sudo apt-get install python3",
+    "install_commands_mac": "brew install python",
+    "description": "Python is a programming language that lets you work quickly and integrate systems more effectively.",
+    "config_instructions": "https://docs.python.org/3/using/index.html",
+    "version": "3.9.6",
+    "post_install_commands": "pip install --upgrade pip",
+    "potential_packages": ["selenium", ""],
+    "package_manager": "pip",
+    "package_manager_install_commands": "python -m pip install",
+    "update_command": "python -m pip install --upgrade",
+    "newest_version": "3.9.6",
+    "current_version_command": "python --version",
+    "verified": "false",
+    "run_command": "python",
+    "setup_guide": "https://www.python.org/downloads/",
+    "uses": [""]
+  },
+  "Golang": {
+    "isdesktop": "false",
+    "tags": ["go", "golang"],
+    "isnpm": "false",
+    "AllowedOS": ["Windows", "Linux", "Mac"],
+    "url": "https://golang.org/dl/go1.17beta1.windows-amd64.msi",
+    "install_commands_windows": "choco install golang",
+    "install_commands_linux": "sudo apt-get install golang",
+    "install_commands_mac": "brew install go",
+    "description": "Go is an open source programming language that makes it easy to build simple, reliable, and efficient software.",
+    "config_instructions": "https://golang.org/doc/install",
+    "version": "1.17beta1",
+    "post_install_commands": "",
+    "potential_packages": [""],
+    "package_manager": "go",
+    "package_manager_install_commands": "go get",
+    "update_command": "go get -u",
+    "newest_version": "1.17beta1",
+    "current_version_command": "go version",
+    "verified": "false",
+    "run_command": "go run",
+    "setup_guide": "https://golang.org/doc/install",
+    "uses": [""],
+    "dependencies": [""]
+  },
+  "Java": {
+    "isdesktop": "false",
+    "tags": ["java", "jdk", "jre"],
+    "isnpm": "false",
+    "AllowedOS": ["Windows", "Linux", "Mac"],
+    "url": "https://javadl.oracle.com/webapps/download/AutoDL?BundleId=244551_78a28e4f523c546c9e55807de4a16db0",
+    "install_commands_windows": "choco install openjdk",
+    "install_commands_linux": "sudo apt-get install openjdk-11-jdk",
+    "install_commands_mac": "brew install openjdk",
+    "description": "Java is a programming language and computing platform first released by Sun Microsystems in 1995.",
+    "config_instructions": "https://www.java.com/en/download/help/download_options.html",
+    "version": "16.0.2",
+    "post_install_commands": "",
+    "potential_packages": [""],
+    "package_manager": "java",
+    "package_manager_install_commands": "java get",
+    "update_command": "java get -u",
+    "newest_version": "16.0.2",
+    "current_version_command": "java version",
+    "verified": "false",
+    "run_command": "java",
+    "setup_guide": "https://www.java.com/en/download/help/download_options.html",
+    "uses": [""],
+    "dependencies": [""]
+  },
+  "C++": {
+    "isdesktop": "false",
+    "tags": ["c++", "cpp", "c"],
+    "isnpm": "false",
+    "AllowedOS": ["Windows", "Linux", "Mac"],
+    "url": "https://sourceforge.net/projects/mingw-w64/files/Toolchains%20targetting%20Win32/Personal%20Builds/mingw-builds/installer/mingw-w64-install.exe/download",
+    "install_commands_windows": "choco install mingw",
+    "install_commands_linux": "sudo apt-get install build-essential",
+    "install_commands_mac": "brew install gcc",
+    "description": "C++ is a general-purpose programming language created by Bjarne Stroustrup as an extension of the C programming language, or 'C with Classes'.",
+    "config_instructions": "https://www.cplusplus.com/doc/tutorial/introduction/",
+    "version": "8.1.0",
+    "post_install_commands": "",
+    "potential_packages": [""],
+    "package_manager": "g++",
+    "package_manager_install_commands": "g++ get",
+    "update_command": "g++ get -u",
+    "newest_version": "8.1.0",
+    "current_version_command": "g++ version",
+    "verified": "false",
+    "run_command": "g++",
+    "setup_guide": "https://www.cplusplus.com/doc/tutorial/introduction/",
+    "uses": [""],
+    "dependencies": [""]
+  },
+  "C#": {
+    "isdesktop": "false",
+    "tags": ["c#", "csharp", "c-sharp", "language"],
+    "isnpm": "false",
+    "AllowedOS": ["Windows", "Linux", "Mac"],
+    "install_commands_windows": "choco install dotnet-sdk",
+    "install_commands_linux": "wget https://packages.microsoft.com/config/ubuntu/20.04/packages-microsoft-prod.deb -O packages-microsoft-prod.deb && sudo dpkg -i packages-microsoft-prod.deb && sudo apt-get update && sudo apt-get install -y dotnet-sdk-5.0",
+    "install_commands_mac": "brew install --cask dotnet-sdk",
+    "description": "C# is a general-purpose, multi-paradigm programming language encompassing strong typing, lexically scoped, imperative, declarative, functional, generic, object-oriented, and component-oriented programming disciplines.",
+    "config_instructions": "https://docs.microsoft.com/en-us/dotnet/csharp/",
+    "version": "5.0.301",
+    "post_install_commands": "",
+    "potential_packages": [""],
+    "package_manager": "c#",
+    "package_manager_install_commands": "c# get",
+    "update_command": "c# get -u",
+    "newest_version": "5.0.301",
+    "current_version_command": "c# version",
+    "verified": "false",
+    "run_command": "c#",
+    "setup_guide": "https://docs.microsoft.com/en-us/dotnet/csharp/",
+    "uses": [""],
+    "dependencies": [""]
+  },
+  "Node": {
+    "isdesktop": "false",
+    "tags": ["node", "nodejs", "node.js", "javascript", "js"],
+    "isnpm": "false",
+
+    "AllowedOS": ["Windows", "Linux", "Mac"],
+    "url": "https://nodejs.org/dist/v14.17.3/node-v14.17.3-x64.msi",
+    "install_commands_windows": "choco install nodejs",
+    "install_commands_linux": "curl -fsSL https://deb.nodesource.com/setup_14.x | sudo -E bash - && sudo apt-get install -y nodejs",
+    "install_commands_mac": "brew install node",
+    "description": "Node.js is an open-source, cross-platform, back-end JavaScript runtime environment that runs on the V8 engine and executes JavaScript code outside a web browser.",
+    "config_instructions": "https://nodejs.org/en/docs/",
+    "version": "14.17.3",
+    "post_install_commands": "",
+    "potential_packages": [""],
+    "package_manager": "node",
+    "package_manager_install_commands": "node get",
+    "update_command": "node get -u",
+    "newest_version": "14.17.3",
+    "current_version_command": "node version",
+    "verified": "false",
+    "run_command": "node",
+    "setup_guide": "https://nodejs.org/en/docs/",
+    "uses": [""],
+    "dependencies": [""]
+  },
+  "Ruby": {
+    "isdesktop": "false",
+    "tags": ["ruby", "rb"],
+    "isnpm": "false",
+    "AllowedOS": ["Windows", "Linux", "Mac"],
+    "url": "",
+    "install_commands_windows": "choco install ruby",
+    "install_commands_linux": "sudo apt-get install ruby-full",
+    "install_commands_mac": "brew install ruby",
+    "description": "Ruby is an interpreted, high-level, general-purpose programming language.",
+    "config_instructions": "https://www.ruby-lang.org/en/documentation/",
+    "version": "3.0.2",
+    "post_install_commands": "",
+    "potential_packages": [""],
+    "package_manager": "ruby",
+    "package_manager_install_commands": "ruby get",
+    "update_command": "ruby get -u",
+    "newest_version": "3.0.2",
+    "current_version_command": "ruby version",
+    "verified": "false",
+    "run_command": "ruby",
+    "setup_guide": "https://www.ruby-lang.org/en/documentation/",
+    "uses": [""],
+    "dependencies": [""]
+  },
+  "NMAP": {
+    "isdesktop": "false",
+    "tags": ["nmap", "network", "scanner"],
+    "isnpm": "false",
+
+    "AllowedOS": ["Windows", "Linux", "Mac"],
+    "url": "https://nmap.org/dist/nmap-7.91-setup.exe",
+    "install_commands_windows": "choco install nmap",
+    "install_commands_linux": "sudo apt-get install nmap",
+    "install_commands_mac": "brew install nmap",
+    "description": "Nmap is a free and open-source network scanner created by Gordon Lyon. Nmap is used to discover hosts and services on a computer network by sending packets and analyzing the responses.",
+    "config_instructions": "",
+    "version": "7.91",
+    "post_install_commands": "",
+    "potential_packages": [""],
+    "package_manager": "nmap",
+    "package_manager_install_commands": "nmap get",
+    "update_command": "nmap get -u",
+    "newest_version": "7.91",
+    "current_version_command": "nmap version",
+    "verified": "false"
+  },
+  "Metasploit": {
+    "isdesktop": "false",
+    "tags": ["metasploit", "msf", "framework"],
+    "isnpm": "false",
+
+    "AllowedOS": ["Windows", "Linux", "Mac"],
+    "url": "",
+    "install_commands_windows": "choco install metasploit-framework",
+    "install_commands_linux": "curl -O https://raw.githubusercontent.com/rapid7/metasploit-omnibus/master/config/templates/metasploit-framework-wrappers/msfupdate.erb && sudo chmod 755 msfupdate.erb && sudo ./msfupdate.erb && sudo apt-get install -y postgresql && sudo msfdb init",
+    "install_commands_mac": "brew install metasploit-framework",
+    "description": "",
+    "config_instructions": ""
+  },
+  "Wireshark": {
+    "isdesktop": "false",
+    "tags": ["wireshark", "network", "analyzer"],
+    "isnpm": "false",
+
+    "AllowedOS": ["Windows", "Linux", "Mac"],
+    "url": "https://1.na.dl.wireshark.org/win64/Wireshark-win64-3.4.6.exe",
+    "install_commands_windows": "choco install wireshark",
+    "install_commands_linux": "sudo apt-get install wireshark",
+    "install_commands_mac": "brew install --cask wireshark",
+
+    "description": "",
+    "config_instructions": ""
+  },
+  "NPM": {
+    "isdesktop": "false",
+    "tags": ["npm", "node", "nodejs", "node.js", "javascript", "js"],
+    "isnpm": "false",
+    "AllowedOS": ["Windows", "Linux", "Mac"],
+    "url": "",
+    "install_commands_windows": "choco install npm",
+    "install_commands_linux": "sudo apt-get install npm",
+    "install_commands_mac": "brew install npm",
+    "description": "NPM is a package manager for the JavaScript programming language.",
+    "config_instructions": ""
+  },
+  "Git": {
+    "isdesktop": "false",
+    "tags": ["git", "version", "control", "system"],
+    "isnpm": "false",
+    "AllowedOS": ["Windows", "Linux", "Mac"],
+    "url": "",
+    "install_commands_windows": "choco install git",
+    "install_commands_linux": "sudo apt-get install git",
+    "install_commands_mac": "brew install git",
+    "description": "Git is a distributed version-control system for tracking changes in source code during software development.",
+    "config_instructions": "https://git-scm.com/docs"
+  },
+  "Docker": {
+    "isdesktop": "false",
+    "tags": ["docker", "container", "containers", "containerization"],
+    "isnpm": "false",
+
+    "AllowedOS": ["Windows", "Linux", "Mac"],
+    "url": "https://desktop.docker.com/win/stable/Docker%20Desktop%20Installer.exe",
+    "install_commands_windows": "choco install docker-desktop",
+    "install_commands_linux": "curl -fsSL https://get.docker.com -o get-docker.sh && sudo sh get-docker.sh && sudo usermod -a $USER -G docker",
+    "install_commands_mac": "brew install --cask docker",
+    "description": "Docker is a set of platform as a service products that use OS-level virtualization to deliver software in packages called containers.",
+    "config_instructions": "https://docs.docker.com/"
+  },
+  "WSL": {
+    "isdesktop": "false",
+    "tags": ["wsl", "windows", "subsystem", "linux"],
+    "isnpm": "false",
+    "AllowedOS": ["Windows"],
+    "url": "https://wslstorestorage.blob.core.windows.net/wslblob/wsl_update_x64.msi",
+    "install_commands_windows": "wsl --install",
+    "install_commands_linux": "N/A",
+    "install_commands_mac": "N/A",
+    "description": "Windows Subsystem for Linux is a compatibility layer for running Linux binary executables natively on Windows 10 and Windows Server 2019.",
+    "config_instructions": "https://docs.microsoft.com/en-us/windows/wsl/"
+  },
+  "Chrome": {
+    "isdesktop": "false",
+    "tags": ["chrome", "browser", "google"],
+    "isnpm": "false",
+
+    "AllowedOS": ["Windows", "Linux", "Mac"],
+    "url": "https://dl.google.com/chrome/install/GoogleChromeStandaloneEnterprise64.msi",
+
+    "install_commands_windows": "choco install googlechrome",
+    "install_commands_linux": "wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb && sudo dpkg -i google-chrome-stable_current_amd64.deb",
+    "install_commands_mac": "brew install --cask google-chrome",
+
+    "description": "",
+    "config_instructions": ""
+  },
+  "Firefox": {
+    "isdesktop": "false",
+    "tags": ["firefox", "browser", "mozilla"],
+    "isnpm": "false",
+    "AllowedOS": ["Windows", "Linux", "Mac"],
+    "url": "https://download.mozilla.org/?product=firefox-latest&os=win64&lang=en-US",
+    "install_commands_windows": "choco install firefox",
+    "install_commands_linux": "sudo apt-get install firefox",
+    "install_commands_mac": "brew install --cask firefox",
+    "description": "",
+    "config_instructions": ""
+  },
+  "Tor": {
+    "isdesktop": "yes",
+    "tags": ["tor", "browser", "privacy", "anonymity"],
+    "isnpm": "false",
+    "AllowedOS": ["Windows", "Linux", "Mac"],
+    "url": "https://www.torproject.org/dist/torbrowser/10.5.5/torbrowser-install-win64-10.5.5_en-US.exe",
+    "install_commands_windows": "choco install tor-browser",
+    "install_commands_linux": "sudo apt-get install torbrowser-launcher",
+    "install_commands_mac": "brew install --cask tor-browser",
+    "description": "",
+    "config_instructions": ""
+  },
+  "Youtube-dl": {
+    "isdesktop": "false",
+    "tags": ["youtube-dl", "youtube", "video", "downloader"],
+    "isnpm": "false",
+    "AllowedOS": ["Windows", "Linux", "Mac"],
+    "url": "https://yt-dl.org/downloads/latest/youtube-dl.exe",
+    "install_commands_windows": "choco install youtube-dl",
+    "install_commands_linux": "sudo apt-get install youtube-dl",
+    "install_commands_mac": "brew install youtube-dl",
+    "description": "",
+    "config_instructions": ""
+  },
+  "VLC": {
+    "AllowedOS": ["Windows", "Linux", "Mac"],
+    "url": "https://get.videolan.org/vlc/3.0.16/win64/vlc-3.0.16-win64.exe",
+    "install_commands_windows": "choco install vlc",
+    "install_commands_linux": "sudo apt-get install vlc",
+    "install_commands_mac": "brew install --cask vlc"
+  },
+  "7zip": {
+    "AllowedOS": ["Windows", "Linux", "Mac"],
+    "url": "https://www.7-zip.org/a/7z1900-x64.exe",
+    "install_commands_windows": "choco install 7zip",
+    "install_commands_linux": "sudo apt-get install p7zip-full",
+    "install_commands_mac": "brew install p7zip"
+  },
+  "Vim": {
+    "AllowedOS": ["Windows", "Linux", "Mac"],
+    "url": "",
+    "install_commands_windows": "choco install vim",
+    "install_commands_linux": "sudo apt-get install vim",
+    "install_commands_mac": "brew install vim"
+  },
+  "Sublime": {
+    "AllowedOS": ["Windows", "Linux", "Mac"],
+    "url": "https://download.sublimetext.com/Sublime%20Text%20Build%203211%20x64%20Setup.exe",
+    "install_commands_windows": "choco install sublimetext3",
+    "install_commands_linux": "wget -qO - https://download.sublimetext.com/sublimehq-pub.gpg | sudo apt-key add - && sudo apt-get install apt-transport-https && echo \"deb https://download.sublimetext.com/ apt/stable/\" | sudo tee /etc/apt/sources.list.d/sublime-text.list && sudo apt-get update && sudo apt-get install sublime-text",
+    "install_commands_mac": "brew install --cask sublime-text"
+  },
+  "VSCode": {
+    "AllowedOS": ["Windows", "Linux", "Mac"],
+    "url": "https://code.visualstudio.com/sha/download?build=stable&os=win32-x64-user",
+    "install_commands_windows": "choco install vscode",
+    "install_commands_linux": "sudo apt-get install code",
+    "install_commands_mac": "brew install --cask visual-studio-code"
+  },
+  "GithubDesktop": {
+    "AllowedOS": ["Windows", "Linux", "Mac"],
+    "url": "",
+    "install_commands_windows": "choco install github-desktop",
+    "install_commands_linux": "N/A",
+    "install_commands_mac": "brew install --cask github"
+  },
+  "Spotify": {
+    "AllowedOS": ["Windows", "Linux", "Mac"],
+    "url": "https://download.scdn.co/SpotifySetup.exe",
+    "install_commands_windows": "choco install spotify",
+    "install_commands_linux": "sudo apt-get install spotify-client",
+    "install_commands_mac": "brew install --cask spotify"
+  },
+  "Discord": {
+    "AllowedOS": ["Windows", "Linux", "Mac"],
+    "url": "https://discord.com/api/download?platform=win",
+    "install_commands_windows": "choco install discord",
+    "install_commands_linux": "sudo apt-get install discord",
+    "install_commands_mac": "brew install --cask discord"
+  },
+  "Zoom": {
+    "AllowedOS": ["Windows", "Linux", "Mac"],
+    "url": "https://zoom.us/client/latest/ZoomInstaller.exe",
+    "install_commands_windows": "choco install zoom",
+    "install_commands_linux": "wget https://zoom.us/client/latest/zoom_amd64.deb && sudo dpkg -i zoom_amd64.deb",
+    "install_commands_mac": "brew install --cask zoom"
+  },
+  "Slack": {
+    "AllowedOS": ["Windows", "Linux", "Mac"],
+    "url": "https://downloads.slack-edge.com/releases/windows/4.12.2/slack-4.12.2-0.1.exe",
+    "install_commands_windows": "choco install slack",
+    "install_commands_linux": "wget https://downloads.slack-edge.com/linux_releases/slack-desktop-4.12.2-amd64.deb && sudo dpkg -i slack-desktop-4.12.2-amd64.deb",
+    "install_commands_mac": "brew install --cask slack"
+  },
+  "Steam": {
+    "AllowedOS": ["Windows", "Linux", "Mac"],
+    "url": "https://cdn.cloudflare.steamstatic.com/client/installer/SteamSetup.exe",
+    "install_commands_windows": "choco install steam",
+    "install_commands_linux": "sudo apt-get install steam",
+    "install_commands_mac": "brew install --cask steam"
+  },
+  "OBS": {
+    "AllowedOS": ["Windows", "Linux", "Mac"],
+    "url": "https://cdn-fastly.obsproject.com/downloads/OBS-Studio-27.0.1-Full-Installer-x64.exe",
+    "install_commands_windows": "choco install obs-studio",
+    "install_commands_linux": "sudo apt-get install obs-studio",
+    "install_commands_mac": "brew install --cask obs"
+  },
+  "Gimp": {
+    "AllowedOS": ["Windows", "Linux", "Mac"],
+    "url": "https://download.gimp.org/mirror/pub/gimp/v2.10/windows/gimp-2.10.24-setup-3.exe",
+    "install_commands_windows": "choco install gimp",
+    "install_commands_linux": "sudo apt-get install gimp",
+    "install_commands_mac": "brew install --cask gimp"
+  },
+  "Inkscape": {
+    "AllowedOS": ["Windows", "Linux", "Mac"],
+    "url": "https://inkscape.org/gallery/item/3888/Inkscape-1.0.2-x64.msi",
+    "install_commands_windows": "choco install inkscape",
+    "install_commands_linux": "sudo apt-get install inkscape",
+    "install_commands_mac": "brew install --cask inkscape"
+  },
+  "Blender": {
+    "AllowedOS": ["Windows", "Linux", "Mac"],
+    "url": "https://mirror.clarkson.edu/blender/release/Blender2.93/blender-2.93.0-windows-x64.msi",
+    "install_commands_windows": "choco install blender",
+    "install_commands_linux": "sudo apt-get install blender",
+    "install_commands_mac": "brew install --cask blender"
+  },
+  "Unity": {
+    "AllowedOS": ["Windows", "Linux", "Mac"],
+    "url": "https://public-cdn.cloud.unity3d.com/hub/prod/UnityHubSetup.exe",
+    "install_commands_windows": "choco install unity-hub",
+    "install_commands_linux": "N/A",
+    "install_commands_mac": "brew install --cask unity-hub"
+  },
+  "Godot": {
+    "AllowedOS": ["Windows", "Linux", "Mac"],
+    "url": "https://downloads.tuxfamily.org/godotengine/3.3.2/Godot_v3.3.2-stable_win64.exe",
+    "install_commands_windows": "choco install godot",
+    "install_commands_linux": "sudo apt-get install godot",
+    "install_commands_mac": "brew install --cask godot"
+  },
+  "AndroidStudio": {
+    "AllowedOS": ["Windows", "Linux", "Mac"],
+    "url": "https://redirector.gvt1.com/edgedl/android/studio/install/2020.3.1.22/android-studio-2020.3.1.22-windows.exe",
+    "install_commands_windows": "choco install androidstudio",
+    "install_commands_linux": "sudo apt-get install android-studio",
+    "install_commands_mac": "brew install --cask android-studio"
+  },
+  "IntelliJ": {
+    "AllowedOS": ["Windows", "Linux", "Mac"],
+    "url": "https://download.jetbrains.com/idea/ideaIC-2021.1.2.exe",
+    "install_commands_windows": "choco install intellijidea-community",
+    "install_commands_linux": "sudo apt-get install intellij-idea-community",
+    "install_commands_mac": "brew install --cask intellij-idea-ce"
+  },
+  "PyCharm": {
+    "AllowedOS": ["Windows", "Linux", "Mac"],
+    "url": "https://download.jetbrains.com/python/pycharm-community-2021.1.2.exe",
+    "install_commands_windows": "choco install pycharm-community",
+    "install_commands_linux": "sudo apt-get install pycharm-community",
+    "install_commands_mac": "brew install --cask pycharm-ce"
+  },
+  "WebStorm": {
+    "AllowedOS": ["Windows", "Linux", "Mac"],
+    "url": "https://download.jetbrains.com/webstorm/WebStorm-2021.1.2.exe",
+    "install_commands_windows": "choco install webstorm",
+    "install_commands_linux": "sudo apt-get install webstorm",
+    "install_commands_mac": "brew install --cask webstorm"
+  },
+  "Rider": {
+    "AllowedOS": ["Windows", "Linux", "Mac"],
+    "url": "https://download.jetbrains.com/rider/JetBrains.Rider-2021.1.2.exe",
+    "install_commands_windows": "choco install rider",
+    "install_commands_linux": "sudo apt-get install rider",
+    "install_commands_mac": "brew install --cask rider"
+  },
+  "Firebasecli": {
+    "AllowedOS": ["Windows", "Linux", "Mac"],
+    "url": "https://firebase.tools/bin/win/firebase-tools.exe",
+    "install_commands_windows": "npm install firebase-cli",
+    "install_commands_linux": "npm install firebase-cli",
+    "install_commands_mac": "npm install firebase-cli"
+  },
+  "Heroku": {
+    "AllowedOS": ["Windows", "Linux", "Mac"],
+    "url": "https://cli-assets.heroku.com/heroku-x64.exe",
+
+    "install_commands_windows": "choco install heroku-cli",
+    "install_commands_linux": "sudo snap install --classic heroku",
+    "install_commands_mac": "brew tap heroku/brew && brew install heroku"
+  },
+  "Vercel": {
+    "AllowedOS": ["Windows", "Linux", "Mac"],
+    "url": "https://vercel.com/download?os=windows",
+    "install_commands_windows": "npm install -g vercel",
+    "install_commands_linux": "npm install -g vercel",
+    "install_commands_mac": "npm install -g vercel"
+  },
+  "Netlify": {
+    "AllowedOS": ["Windows", "Linux", "Mac"],
+    "url": "https://netlify.com/download",
+    "install_commands_windows": "npm install -g netlify-cli",
+    "install_commands_linux": "npm install -g netlify-cli",
+    "install_commands_mac": "npm install -g netlify-cli"
+  },
+  "PMP": {
+    "AllowedOS": ["Windows", "Linux", "Mac"],
+    "url": "",
+    "install_commands_windows": "choco install pmp",
+    "install_commands_linux": "sudo apt-get install pmp",
+    "install_commands_mac": "brew install --cask pmp"
+  },
+  "Yarn": {
+    "AllowedOS": ["Windows", "Linux", "Mac"],
+    "url": "https://classic.yarnpkg.com/latest.msi",
+    "install_commands_windows": "choco install yarn",
+    "install_commands_linux": "sudo apt-get install yarn",
+    "install_commands_mac": "brew install yarn"
+  },
+  "nvm": {
+    "AllowedOS": ["Windows", "Linux", "Mac"],
+    "url": "",
+    "install_commands_windows": "choco install nvm",
+    "install_commands_linux": "curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.38.0/install.sh | bash",
+    "install_commands_mac": "curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.38.0/install.sh | bash"
+  },
+  "Chocolatey": {
+    "AllowedOS": ["Windows"],
+    "url": "https://chocolatey.org/install",
+    "install_commands_windows": "Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))",
+    "install_commands_linux": "sudo apt-get install chocolatey",
+    "install_commands_mac": "brew install chocolatey"
+  },
+  "Homebrew": {
+    "AllowedOS": ["Mac"],
+    "url": "https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh",
+    "install_commands_windows": "N/A",
+    "install_commands_linux": "N/A",
+    "install_commands_mac": "/bin/bash -c \"$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)\""
+  },
+  "Terraform": {
+    "AllowedOS": ["Windows", "Linux", "Mac"],
+    "url": "https://releases.hashicorp.com/terraform/1.0.0/terraform_1.0.0_windows_amd64.zip",
+    "install_commands_windows": "choco install terraform",
+    "install_commands_linux": "sudo apt-get install terraform",
+    "install_commands_mac": "brew install terraform"
+  },
+  "Brave": {
+    "AllowedOS": ["Windows", "Linux", "Mac"],
+    "url": "https://laptop-updates.brave.com/latest/winx64",
+    "install_commands_windows": "choco install brave",
+    "install_commands_linux": "sudo apt-get install brave",
+    "install_commands_mac": "brew install --cask brave-browser"
+  },
+  "ChromeDriver": {
+    "AllowedOS": ["Windows", "Linux", "Mac"],
+    "url": "https://chromedriver.storage.googleapis.com/91.0.4472.101/chromedriver_win32.zip",
+    "install_commands_windows": "choco install chromedriver",
+    "install_commands_linux": "sudo apt-get install chromium-chromedriver",
+    "install_commands_mac": "brew install --cask chromedriver"
+  },
+  "FirefoxDriver": {
+    "AllowedOS": ["Windows", "Linux", "Mac"],
+    "url": "",
+    "install_commands_windows": "choco install firefoxdriver",
+    "install_commands_linux": "sudo apt-get install firefoxdriver",
+    "install_commands_mac": "brew install --cask geckodriver"
+  },
+  "Selenium": {
+    "AllowedOS": ["Windows", "Linux", "Mac"],
+    "url": "https://selenium-release.storage.googleapis.com/3.141/selenium-server-standalone-3.141.59.jar",
+    "install_commands_windows": "choco install selenium",
+    "install_commands_linux": "sudo apt-get install selenium",
+    "install_commands_mac": "brew install selenium-server-standalone"
+  },
+  "Postman": {
+    "AllowedOS": ["Windows", "Linux", "Mac"],
+    "url": "https://dl.pstmn.io/download/latest/win64",
+    "install_commands_windows": "choco install postman",
+    "install_commands_linux": "sudo apt-get install postman",
+    "install_commands_mac": "brew install --cask postman"
+  },
+  "Insomnia": {
+    "AllowedOS": ["Windows", "Linux", "Mac"],
+    "url": "https://updates.insomnia.rest/downloads/windows/latest?app=com.insomnia.app&source=website",
+    "install_commands_windows": "choco install insomnia-rest-api-client",
+    "install_commands_linux": "sudo apt-get install insomnia",
+    "install_commands_mac": "brew install --cask insomnia"
+  },
+  "googlecloudsdk": {
+    "AllowedOS": ["Windows", "Linux", "Mac"],
+    "url": "https://dl.google.com/dl/cloudsdk/channels/rapid/GoogleCloudSDKInstaller.exe",
+    "install_commands_windows": "choco install googlecloudsdk",
+    "install_commands_linux": "sudo apt-get install google-cloud-sdk",
+    "install_commands_mac": "brew install --cask google-cloud-sdk"
+  },
+  "awscli": {
+    "AllowedOS": ["Windows", "Linux", "Mac"],
+    "url": "https://awscli.amazonaws.com/AWSCLIV2.msi",
+    "install_commands_windows": "choco install awscli",
+    "install_commands_linux": "sudo apt-get install awscli",
+    "install_commands_mac": "brew install awscli"
+  },
+  "azure-cli": {
+    "AllowedOS": ["Windows", "Linux", "Mac"],
+    "url": "https://aka.ms/installazurecliwindows",
+    "install_commands_windows": "choco install azure-cli",
+    "install_commands_linux": "sudo apt-get install azure-cli",
+    "install_commands_mac": "brew install azure-cli"
+  },
+  "kubectl": {
+    "AllowedOS": ["Windows", "Linux", "Mac"],
+    "url": "https://storage.googleapis.com/kubernetes-release/release/v1.21.0/bin/windows/amd64/kubectl.exe",
+    "install_commands_windows": "choco install kubernetes-cli",
+    "install_commands_linux": "sudo apt-get install kubectl",
+    "install_commands_mac": "brew install kubectl",
+    "post_install_commands_windows": "kubectl config set-context --current --namespace=default",
+    "post_install_commands_linux": "kubectl config set-context --current --namespace=default",
+    "post_install_commands_mac": "kubectl config set-context --current --namespace=default"
+  },
+  "helm": {
+    "AllowedOS": ["Windows", "Linux", "Mac"],
+    "url": "https://get.helm.sh/helm-v3.6.0-windows-amd64.zip",
+    "install_commands_windows": "choco install kubernetes-helm",
+    "install_commands_linux": "sudo apt-get install helm",
+    "install_commands_mac": "brew install helm",
+    "post_install_commands_windows": "helm repo add stable https://charts.helm.sh/stable",
+    "post_install_commands_linux": "helm repo add stable https://charts.helm.sh/stable",
+    "post_install_commands_mac": "helm repo add stable https://charts.helm.sh/stable"
+  },
+  "minikube": {
+    "AllowedOS": ["Windows", "Linux", "Mac"],
+    "url": "https://storage.googleapis.com/minikube/releases/latest/minikube-windows-amd64.exe",
+    "install_commands_windows": "choco install minikube",
+    "install_commands_linux": "sudo apt-get install minikube",
+    "install_commands_mac": "brew install minikube",
+    "post_install_commands_windows": "minikube start",
+    "post_install_commands_linux": "minikube start",
+    "post_install_commands_mac": "minikube start",
+    "dependencies": ["kubectl", "helm"]
+  }
+}

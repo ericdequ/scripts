@@ -1,0 +1,100 @@
+{
+    "VSCode": {
+        "description": "Visual Studio Code is a lightweight and customizable code editor that supports a wide range of programming languages. It has a built-in debugger, Git integration, and other useful features.",
+        "windows": {
+            "install": "powershell.exe -Command \"[Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12 ; irm https://go.microsoft.com/fwlink/?Linkid=850641 -OutFile $env:TEMP\\VSCodeSetup.exe ; Start-Process $env:TEMP\\VSCodeSetup.exe -ArgumentList /verysilent /norestart\" ",
+            "update": "powershell.exe -Command \"[Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12 ; irm https://go.microsoft.com/fwlink/?Linkid=850641 -OutFile $env:TEMP\\VSCodeSetup.exe ; Start-Process $env:TEMP\\VSCodeSetup.exe -ArgumentList /silent /norestart /mergetasks=!runcode\""
+        }
+    },
+    "GitHub Desktop": {
+        "description": "GitHub Desktop is a graphical user interface for managing your Git repositories. It simplifies the process of working with Git and GitHub, and supports features like pull requests, branch management, and more.",
+        "windows": {
+            "install": "powershell.exe -Command \"[Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12 ; irm https://github.com/desktop/desktop/releases/latest/download/GitHubDesktopSetup.exe -OutFile $env:TEMP\\GitHubDesktopSetup.exe ; Start-Process $env:TEMP\\GitHubDesktopSetup.exe -ArgumentList /VERYSILENT /SUPPRESSMSGBOXES /NORESTART\" ",
+            "update": "powershell.exe -Command \"[Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12 ; irm https://github.com/desktop/desktop/releases/latest/download/GitHubDesktopSetup.exe -OutFile $env:TEMP\\GitHubDesktopSetup.exe ; Start-Process $env:TEMP\\GitHubDesktopSetup.exe -ArgumentList /VERYSILENT /SUPPRESSMSGBOXES /NORESTART\""
+        }
+    },
+    "JetBrains IntelliJ IDEA": {
+        "description": "IntelliJ IDEA is a popular Java integrated development environment (IDE) that supports a wide range of programming languages. It has advanced code analysis, debugging, and testing tools, as well as support for various frameworks and technologies.",
+        "windows": {
+            "install": "powershell.exe -Command \"[Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12 ; irm https://download.jetbrains.com/idea/ideaIC-2021.1.2.exe -OutFile $env:TEMP\\intellij.exe ; Start-Process $env:TEMP\\intellij.exe -ArgumentList /silent /norestart\" ",
+            "update": "powershell.exe -Command \"[Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12 ; irm https://download.jetbrains.com/idea/ideaIC-2021.1.2.exe -OutFile $env:TEMP\\intellij.exe ; Start-Process $env:TEMP\\intellij.exe -ArgumentList /silent /norestart\""
+        }
+    },
+    "Postman": {
+        "description": "Postman is a popular tool for testing APIs. It lets you send HTTP requests and view the responses, which is useful for debugging and troubleshooting.",
+        "windows": {
+            "install": "https://www.postman.com/downloads/",
+            "update": "https://www.postman.com/downloads/"
+        }
+    },
+    "FileZilla": {
+        "description": "FileZilla is a free, open-source FTP client that lets you transfer files between your local machine and a web server. It supports a wide range of protocols and can handle large file transfers.",
+        "windows": {
+            "install": "https://filezilla-project.org/download.php?type=client",
+            "update": "https://filezilla-project.org/download.php?type=client"
+        }
+    },
+    "Adobe Creative Cloud": {
+        "description": "Adobe Creative Cloud is a suite of desktop applications that are useful for creating and editing graphics, videos, and other media. Photoshop, Illustrator, and Premiere Pro are some of the most commonly used tools in this suite.",
+        "windows": {
+            "install": "https://www.adobe.com/creativecloud/desktop-app.html",
+            "update": "https://www.adobe.com/creativecloud/desktop-app.html"
+        }
+    },
+    "Sublime Text": {
+        "description": "Sublime Text is a lightweight yet powerful code editor that supports a wide range of programming languages. It includes advanced features such as multiple selections, split editing, and a distraction-free mode. It also has a large library of plugins for additional functionality.",
+        "windows": {
+            "install": "https://www.sublimetext.com/",
+            "update": "https://www.sublimetext.com/"
+        }
+    },
+    "Slack": {
+        "description": "Slack is a popular messaging app that is useful for communicating with other members of your development team. It supports file sharing, video calls, and integrations with other tools.",
+        "windows": {
+            "install": "https://slack.com/downloads/windows",
+            "update": "https://slack.com/downloads/windows"
+        }
+    },
+    "Docker": {
+        "description": "Docker is a tool for creating and managing containers, which are lightweight, portable environments that can run applications. It is useful for developing and testing applications that need to run in different environments.",
+        "windows": {
+            "install": "https://docs.docker.com/docker-for-windows/install/",
+            "update": "https://docs.docker.com/docker-for-windows/install/"
+        }
+    },
+    "Google Chrome": {
+        "description": "Google Chrome is a popular web browser that supports a wide range of features, including tabbed browsing, extensions, and developer tools. It is useful for testing websites and web applications.",
+        "windows": {
+            "install": "https://www.google.com/chrome/",
+            "update": "https://www.google.com/chrome/"
+        }
+    },
+    "PuTTY": {
+        "description": "PuTTY is a free and open-source terminal emulator that supports SSH, Telnet, and other network protocols. It is useful for remotely accessing servers and other network devices.",
+        "windows": {
+            "install": "https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html",
+            "update": "https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html"
+        }
+    },
+    "Nmap": {
+        "description": "Nmap is a powerful network exploration and security auditing tool. It is useful for network discovery, port scanning, and vulnerability assessment.",
+        "windows": {
+            "install": "https://nmap.org/download.html",
+            "update": "https://nmap.org/download.html"
+        }
+    },
+    "Git": {
+        "description": "Git is a popular version control system that is used for managing source code and collaborating with other developers. It is useful for tracking changes, managing branches, and merging code.",
+        "windows": {
+            "install": "https://git-scm.com/downloads",
+            "update": "https://git-scm.com/downloads"
+        }
+    },
+    "Atom": {
+        "description": "Atom is a customizable code editor that supports a wide range of programming languages and has many useful features, including smart autocompletion, file system browser, and project management.",
+        "windows": {
+            "install": "https://atom.io/",
+            "update": "https://atom.io/"
+        }
+    }
+}
